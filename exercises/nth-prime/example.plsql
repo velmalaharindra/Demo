@@ -47,7 +47,7 @@ is
     i_prime                                       pls_integer
   ) return number
   is
-    l_next                          number;
+    l_next                          integer; --changes
   begin
     l_next := i_prime + case mod(i_prime, 2) when 0 then 1 else 2 end;
 
