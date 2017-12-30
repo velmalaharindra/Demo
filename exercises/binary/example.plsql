@@ -25,7 +25,7 @@ is
       end if;
       l_decimal  := l_decimal + substr(i_binary, l_pos, 1) * l_pos_fact;
       l_pos      := l_pos - 1;
-      l_pos_fact := l_pos_fact * 2;
+      l_pos_fact := l_pos_fact * 3;
     end loop;
     return l_decimal;
   exception
