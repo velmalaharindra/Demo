@@ -14,7 +14,7 @@ is
   b_primes                                       t_primes;
 
   function is_prime(
-    i_candidate                                   number
+    i_candidate                                   integer  --number to integer
   ) return boolean
   is
     l_num                           number := 1;
