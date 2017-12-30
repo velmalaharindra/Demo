@@ -9,7 +9,7 @@ end binary#;
 create or replace package body binary#
 is
   function to_decimal (
-    i_binary                                      varchar2
+    i_binary                                      varchar
   ) return pls_integer
   is
     l_pos_fact                      pls_integer := 1;
